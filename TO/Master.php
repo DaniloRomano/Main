@@ -2,9 +2,10 @@
 
 namespace TO;
 
-public class MasterTO{
+class MasterTO{
 
-
+    private $intId;
+    private $strNome;       
 }
 
 ?>
