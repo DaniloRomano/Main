@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/01/2018, 13:23:47
+    Author     : admin
+*/
+
+.dvLoginBox{
+    display: block;
+    margin:250px auto;
+    background: #EEEEEE;
+    width: 400px;
+    height: auto;   
+    padding-bottom: 20px;
+    border-left: 5px solid #00BFFF;
+    box-shadow: 5px 5px 5px 1px #000000;
+}
+
+.dvLoginBox span{
+    display: block;
+    width: 100%;    
+    text-align: center;
+    font: 40px/60px "Arial";
+    color: #333333;
+}
+
+.dvLoginBox .TextBox{
+    border: 1px solid #333333;
+    display: block;
+    width: 80%;
+    margin: 20px auto;    
+    font: 20px/40px "Arial";
+    color: #333333;
+}
+
+.dvLoginBox .TextBox:focus{
+    border: 1px solid #00BFFF;    
+    color: #00BFFF; 
+}
+
+.dvLoginBox .Botao{
+    border: none;    
+    background: #FF7F00;
+    display: block;
+    width: 60%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font: 20px/40px "Arial";
+    color: #EEEEEE;    
+    cursor: pointer;    
+}
+
+.dvLoginBox .Botao:hover{
+    background: #00BFFF;
+}

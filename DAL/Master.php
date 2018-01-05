@@ -1,9 +1,8 @@
-
 <?php
 
 namespace DAL;
 
-use TO;
+require "TO\Master.php";
 
 class MasterDAL{
 
