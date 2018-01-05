@@ -1,0 +1,14 @@
+#Turn Rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+#map neat URL to internal URL
+#Pagina inicial
+RewriteRule ^Home index.php [nc,qsa]
+#PAgina de login
+RewriteRule ^Login login.php [nc,qsa]
+#Regras Serviços API RESTFull
+RewriteRule ^cliente/list/all WebService/main-service.php?view=all [nc,qsa]
+RewriteRule ^cliente/list/([0-9]+)$ WebService/main-service.php?view=single&id=$1 [nc,qsa]
+#Serviço de Login
+RewriteRule ^signin WebService/main-service.php?view=login [nc,qsa]

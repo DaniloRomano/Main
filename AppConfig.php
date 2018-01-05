@@ -6,12 +6,14 @@
  * and open the template in the editor.
  */
 
-define("DB_Host","");
+define("DB_Host","localhost");
 
-define("DB_Name", "");
+define("DB_Name", "ProjetoPadrao");
 
-define("DB_ConnectionString","");
+define("DB_ConnectionString","mysql:dbname=".DB_Name.";host=".DB_Host);
 
-define("DB_User","");
+define("DB_User","root");
 
 define("DB_Pass","");
+
+define("PATH_FISICO","C:/xampp/htdocs/Main-master/");
